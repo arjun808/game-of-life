@@ -6,8 +6,8 @@ pkg_license=('Apache-2.0')
 pkg_source="https://github.com/arjun808/game-of-life"
 # pkg_filename="${pkg_name}-${pkg_version}.tar.gz"
 # pkg_shasum="TODO"
- pkg_deps=(core/jdk8 core/tomcat8)
- pkg_build_deps=(core/git core/maven)
+ pkg_deps=(core/tomcat8)
+ pkg_build_deps=(core/jdk8 core/git core/maven)
 #pkg_exports=([port]=listening_port)
 pkg_exports=(
   [port]=http.port
