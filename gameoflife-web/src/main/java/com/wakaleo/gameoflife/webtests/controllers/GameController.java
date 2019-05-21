@@ -2,8 +2,6 @@ package com.wakaleo.gameoflife.webtests.controllers;
 
 import java.util.Random;
 
-private final ArtifactFactory artifactFactory;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
